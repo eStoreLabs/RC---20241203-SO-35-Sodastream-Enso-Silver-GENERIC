@@ -13,10 +13,10 @@
           <div class="es-kv__content">
             <div class="es-kv__logo">
               <img
+                class="es-kv__img es-kv__img--logo"
                 src="./static/img/logo.png"
                 loading="lazy"
                 alt="SODAstream"
-                class="es-kv__img es-kv__img--logo"
               />
             </div>
             <h2 class="es-kv__title">
@@ -32,16 +32,16 @@
           </div>
           <div class="es-kv__packshot">
             <img
+              class="es-kv__img es-kv__img--mobile"
               src="./static/img/kv-packshot.png"
               loading="lazy"
-              alt=""
-              class="es-kv__img es-kv__img--mobile"
+              alt="Opakowanie"
             />
             <img
+              class="es-kv__img es-kv__img--desktop"
               src="./static/img/kv.png"
               loading="lazy"
-              alt=""
-              class="es-kv__img es-kv__img--desktop"
+              alt="Opakowanie"
             />
           </div>
         </div>
@@ -57,21 +57,24 @@
 
       <div class="es-eco">
         <div class="es-eco__container">
-          <h3 class="es-eco__title">Styl <br />w&nbsp;Każdej Kuchni</h3>
-          <img
-            src="./static/img/picture-1.png"
-            loading="lazy"
-            alt=""
-            class="es-eco__img"
-          />
-          <p class="es-eco__text">
-            Dzięki najwyższej jakości materiałom i&nbsp;precyzyjnemu wykonaniu
-            saturator SodaStream Ensō stanie się wyjątkową ozdobą każdej kuchni,
-            dodając jej elegancji i&nbsp;niepowtarzalnego stylu. Jego
-            minimalistyczny design doskonale wpisuje się w modne aranżacje
-            wnętrz, w&nbsp;tym styl loftowy, łącząc funkcjonalność
-            z&nbsp;wyrafinowaną estetyką.
-          </p>
+          <h3 class="es-eco__title">Styl&nbsp;w&nbsp;Każdej Kuchni</h3>
+
+          <div class="es-eco__picture-container">
+            <img
+              class="es-eco__img es-eco__img--big"
+              src="./static/img/picture-1.png"
+              loading="lazy"
+              alt="Sodastream Enso"
+            />
+            <p class="es-eco__text">
+              Dzięki najwyższej jakości materiałom i&nbsp;precyzyjnemu wykonaniu
+              saturator SodaStream Ensō stanie się wyjątkową ozdobą każdej
+              kuchni, dodając jej elegancji i&nbsp;niepowtarzalnego stylu. Jego
+              minimalistyczny design doskonale wpisuje się w modne aranżacje
+              wnętrz, w&nbsp;tym styl loftowy, łącząc funkcjonalność
+              z&nbsp;wyrafinowaną estetyką.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -80,7 +83,7 @@
           <h3 class="es-eco__title es-eco__title--blue">
             Prostota i&nbsp;styl w&nbsp;jednym
           </h3>
-          <p class="es-eco__text">
+          <p class="es-eco__text es-eco__text--second">
             Ekspres do gazowania wody SodaStream Ensō łączy wyrafinowaną
             estetykę z&nbsp;nowoczesną technologią, zapewniając komfort
             i&nbsp;wygodę użytkowania każdego dnia.
@@ -92,12 +95,12 @@
                 Bottle Snap & Lock – Prosty&nbsp;Montaż na "Klik"
               </p>
               <img
+                class="es-eco__img"
                 src="./static/img/icon-1.png"
                 loading="lazy"
                 alt="icon"
-                class="es-eco__img"
               />
-              <p class="es-eco__text">
+              <p class="es-eco__single-text">
                 Szybkie i&nbsp;intuicyjne<br />
                 mocowanie butelki <br />umożliwia łatwe <br />zabezpieczenie
                 oraz <br />wyjęcie jednym ruchem.
@@ -108,12 +111,12 @@
                 Quick Connect – <br />Błyskawiczna Instalacja Cylindra CO₂
               </p>
               <img
+                class="es-eco__img"
                 src="./static/img/icon-2.png"
                 loading="lazy"
                 alt="icon"
-                class="es-eco__img"
               />
-              <p class="es-eco__text">
+              <p class="es-eco__single-text">
                 System Quick Connect i <br />wysuwana komora <br />pozwalają na
                 prosty i<br />intuicyjny montaż cylindra<br />
                 bez wkręcania.
@@ -125,12 +128,12 @@
                 Trwałość na Lata
               </p>
               <img
+                class="es-eco__img"
                 src="./static/img/icon-3.png"
                 loading="lazy"
                 alt="icon"
-                class="es-eco__img"
               />
-              <p class="es-eco__text">
+              <p class="es-eco__single-text">
                 Wykonane z wytrzymałej <br />stali nierdzewnej elementy<br />
                 zapewniają długoletnią <br />trwałość i&nbsp;łatwość w<br />
                 utrzymaniu czystości.
@@ -143,7 +146,7 @@
       <div class="es-natural">
         <div class="es-natural__container">
           <p class="es-natural__subtitle">
-            Elegancja i&nbsp;funkcjonalność na co dzień?
+            Elegancja i&nbsp;funkcjonalność na&nbsp;co&nbsp;dzień?
           </p>
 
           <p class="es-natural__description">
@@ -153,8 +156,8 @@
 
             W zestawie z SodaStream Ensō znajduje się elegancka butelka,
             zaprojektowana specjalnie dla tego modelu. Została wykonana
-            z&nbsp;trwałego Tritanu i&nbsp;ozdobiona połyskującymi detalami ze
-            stali nierdzewnej, które dodają jej elegancji i&nbsp;wyjątkowego
+            z&nbsp;trwałego Tritanu i ozdobiona połyskującymi detalami ze stali
+            nierdzewnej, które dodają jej elegancji i&nbsp;wyjątkowego
             charakteru. Odporna na matowienie i&nbsp;wysokie temperatury,
             idealnie sprawdza się na co dzień, zachowując stylowy wygląd
             i&nbsp;doskonale trzymając bąbelki przez 4 lata użytkowania.
@@ -172,42 +175,29 @@
               Odłączana podstawa dla maksymalnej higieny
             </li>
             <li class="es-natural__item">
-              Kompatybilna z modelami: Enso, Art i&nbsp;Terra
+              Kompatybilna z modelami: Enso, Art&nbsp;i&nbsp;Terra
             </li>
           </ul>
-          <p class="es-natural__description">
+          <p class="es-natural__description es-natural__description--second">
             <span class="es-natural__subtitle--bold">
               Bezpieczeństwo i&nbsp;Wygoda
             </span>
 
             Butelka nie zawiera szkodliwego dla zdrowia BPA, co zapewnia
-            bezpieczne dla zdrowia użytkowanie. Zarówno butelkę, jak i&nbsp;jej
-            zdejmowaną podstawę można myć w zmywarce, co gwarantuje pełną
-            higienę przy minimalnym wysiłku, oszczędzając Twój czas
-            i&nbsp;energię.
+            bezpieczne dla zdrowia użytkowanie. Zarówno&nbsp;butelkę, jak
+            i&nbsp;jej zdejmowaną podstawę można <br />myć w zmywarce, co
+            gwarantuje pełną higienę przy minimalnym wysiłku, oszczędzając Twój
+            czas i&nbsp;energię.
           </p>
-          <div class="es-natural__picture">
-            <!-- <img
-              src="./static/img/picture-2.png"
-              loading="lazy"
-              alt=""
-              class="es-natural__img"
-            /> -->
-          </div>
+          <div class="es-natural__picture"></div>
         </div>
       </div>
 
       <div class="es-eco">
-        <div class="es-eco__picture">
-          <!-- <img
-              src="./static/img/picture-2.png"
-              loading="lazy"
-              alt=""
-              class="es-eco__img"
-            /> -->
-        </div>
-        <div class="es-eco__container">
-          <p class="es-eco__subtitle">Domowe orzeźwienie w stylu Eko</p>
+        <div class="es-eco__container es-eco__container--second">
+          <p class="es-eco__subtitle">
+            Domowe <br />orzeźwienie w&nbsp;stylu&nbsp;Eko
+          </p>
 
           <p class="es-eco__description">
             Poznaj SodaStream i&nbsp;odkryj nowy wymiar świadomej konsumpcji.
@@ -217,9 +207,16 @@
             <br /><br />
             Ciesz się nieograniczonym dostępem do świeżej wody gazowanej
             i&nbsp;twórz ulubione napoje bez wychodzenia z domu i&nbsp;noszenia
-            ciężkich zgrzewek ze sklepu. Z SodaStream dbasz o planetę
+            ciężkich zgrzewek ze sklepu. Z&nbsp;SodaStream dbasz o planetę
             i&nbsp;o&nbsp;swój komfort.
           </p>
+
+          <img
+            class="es-eco__img es-eco__img--eco"
+            src="./static/img/eco-image.png"
+            loading="lazy"
+            alt="Eco image"
+          />
         </div>
       </div>
 
@@ -230,7 +227,7 @@
           </p>
           <p class="es-art__text">
             Zanurz się w świecie wyjątkowych doznań smakowych i&nbsp;daj się
-            ponieść kreatywności. Z saturatorem SodaStream Ensō stworzysz
+            ponieść kreatywności. Z&nbsp;saturatorem SodaStream Ensō stworzysz
             niepowtarzalne kompozycje, idealnie dopasowane do Twoich
             preferencji. Puść wodze fantazji i&nbsp;eksperymentuj
             z&nbsp;intensywnością bąbelków, poziomem słodkości oraz dodatkami.
@@ -238,11 +235,13 @@
             przypraw? Wybór należy do Ciebie!
           </p>
         </div>
-        <div class="es-art__steps">
+        <div class="es-art__steps es-art__steps--mobile">
           <div class="es-art__steps-item">
-            <p class="es-art__steps-item-title">gazuj</p>
+            <p class="es-art__steps-item-title es-art__steps-item-title--1">
+              gazuj
+            </p>
             <img
-              class="es-art__steps-item-image"
+              class="es-art__steps-item-image es-art__steps-item-image--1"
               src="./static/img/step-1.png"
               loading="lazy"
               alt="Gazuj"
@@ -253,27 +252,75 @@
             </p>
           </div>
           <div class="es-art__steps-item">
-            <p class="es-art__steps-item-title">miksuj</p>
+            <p class="es-art__steps-item-title es-art__steps-item-title--2">
+              miksuj
+            </p>
             <img
-              class="es-art__steps-item-image"
+              class="es-art__steps-item-image es-art__steps-item-image--2"
               src="./static/img/step-2.png"
               loading="lazy"
               alt="Miksuj"
             />
             <p class="es-art__steps-item-description">
-              Połącz bąbelki z syropem, delikatnie wymieszaj i&nbsp;przelej do
-              szklanki
+              Połącz bąbelki<br />
+              z syropem, delikatnie wymieszaj i&nbsp;przelej do szklanki
             </p>
           </div>
           <div class="es-art__steps-item">
-            <p class="es-art__steps-item-title">smakuj</p>
+            <p class="es-art__steps-item-title es-art__steps-item-title--3">
+              smakuj
+            </p>
             <img
-              class="es-art__steps-item-image"
+              class="es-art__steps-item-image es-art__steps-item-image--3"
               src="./static/img/step-3.png"
               loading="lazy"
               alt="Smakuj"
             />
             <p class="es-art__steps-item-description">
+              Napój gotowy – teraz czas na chwilę przyjemności
+            </p>
+          </div>
+        </div>
+        <div class="es-art__steps es-art__steps--desktop">
+          <img
+            class="es-art__steps-item-image es-art__steps-item-image--desktop"
+            src="./static/img/gas-desktop.png"
+            loading="lazy"
+            alt="Gazuj"
+          />
+
+          <div class="es-art__steps-text-container">
+            <p
+              class="es-art__steps-item-description es-art__steps-item-description--desktop es-art__steps-item-description--desktop-1"
+            >
+              Napełnij butelkę<br />
+              SodaStream zimną <br />wodą z kranu i&nbsp;nagazuj <br />tak, jak
+              lubisz.
+            </p>
+            <img
+              class="es-art__steps-item-line es-art__steps-item-line--1"
+              src="./static/img/line-1.png"
+              loading="lazy"
+              alt="Linia"
+            />
+
+            <p
+              class="es-art__steps-item-description es-art__steps-item-description--desktop es-art__steps-item-description--desktop-2"
+            >
+              Połącz bąbelki <br />z syropem, delikatnie<br />
+              wymieszaj i&nbsp;przelej <br />do szklanki
+            </p>
+
+            <img
+              class="es-art__steps-item-line es-art__steps-item-line--2"
+              src="./static/img/line-2.png"
+              loading="lazy"
+              alt="Linia"
+            />
+
+            <p
+              class="es-art__steps-item-description es-art__steps-item-description--desktop es-art__steps-item-description--desktop-3"
+            >
               Napój gotowy – teraz czas na chwilę przyjemności
             </p>
           </div>
@@ -287,53 +334,61 @@
               class="es-coctails__left-logo"
               src="./static/img/sodastream-crafted-logo.png"
               loading="lazy"
-              alt=""
+              alt="Logotyp"
             />
             <img
               class="es-coctails__image"
               src="./static/img/coctail-1.png"
-              alt=""
+              loading="lazy"
+              alt="Koktajl"
             />
           </div>
           <div class="es-coctails__right">
             <p class="es-coctails__right-title">
-              Perfekcyjne koktajle i&nbsp;moktajle na 1, 2, tssst!
+              Perfekcyjne<br />
+              koktajle i&nbsp;moktajle<br />
+              na 1, 2, tssst!
             </p>
             <img
               class="es-coctails__image"
               src="./static/img/coctail-2.png"
-              alt=""
+              loading="lazy"
+              alt="Koktajl"
             />
           </div>
         </div>
         <p class="es-coctails__description">
-          Poznaj linię SodaStream Crafted – wyjątkowe bezalkoholowe bazy do
-          koktajli i&nbsp;moktajli, które nadadzą Twoim napojom niepowtarzalny
-          charakter. Wystarczy dodać wodę gazowaną i&nbsp;ulubione dodatki, by
-          każdemu dniu dodać odrobinę finezji i&nbsp;kreatywności.
+          <span>Poznaj linię SodaStream Crafted</span> – wyjątkowe bezalkoholowe
+          bazy do koktajli i&nbsp;moktajli, które nadadzą Twoim napojom
+          niepowtarzalny charakter. Wystarczy dodać wodę gazowaną
+          i&nbsp;ulubione dodatki, by każdemu dniu dodać odrobinę finezji
+          i&nbsp;kreatywności.
         </p>
+        <h2 class="es-coctails__tastes-title">
+          Jakim smakiem wzbogacisz swoją codzienność?
+        </h2>
         <div class="es-coctails__tastes">
           <div class="es-coctails__tastes-single">
             <p class="es-coctails__tastes-single-title">
-              SodaStream Crafted Brzoskwinia & Imbir:
+              SodaStream Crafted <br />Brzoskwinia & Imbir:
             </p>
             <p class="es-coctails__tastes-single-description">
-              Owocny mariaż smaków słodkiej brzoskwiniz pikantnym imbirem
-              zachwyca balansemi przyjemnie orzeźwia
+              Owocny mariaż smaków słodkiej brzoskwiniz pikantnym imbirem
+              zachwyca balansemi przyjemnie orzeźwia
             </p>
           </div>
           <div class="es-coctails__tastes-single">
             <p class="es-coctails__tastes-single-title">
-              SodaStream Crafted Grejpfrut & Kwiat Czarnego Bzu:
+              SodaStream Crafted <br />Grejpfrut & Kwiat Czarnego Bzu:
             </p>
             <p class="es-coctails__tastes-single-description">
-              Wyrafinowana kompozycja smaków grejpfruta i romantycznych kwiatów
-              czarnego bzu oczaruje Twoich gości
+              Wyrafinowana kompozycja smaków grejpfruta i&nbsp;romantycznych
+              kwiatów czarnego bzu oczaruje Twoich gości
             </p>
           </div>
           <div class="es-coctails__tastes-single">
             <p class="es-coctails__tastes-single-title">
-              SodaStream Crafted Ananas & Jalapeño:
+              SodaStream Crafted <br />Ananas & Jalapeño:
             </p>
             <p class="es-coctails__tastes-single-description">
               Unikalne połączenie smaków tropikalnego ananasa i&nbsp;ognistego
@@ -348,7 +403,7 @@
           class="es-taste__day-night"
           src="./static/img/day-night-sodastream.png"
           loading="lazy"
-          alt=""
+          alt="Sodastream"
         />
         <div class="es-taste__container">
           <h3 class="es-taste__subtitle">
@@ -356,10 +411,10 @@
           </h3>
 
           <img
+            class="es-taste__img"
             src="./static/img/syrups.png"
             loading="lazy"
             alt="syrups"
-            class="es-taste__img"
           />
           <p class="es-taste__text">
             Odkryj szeroką gamę syropów SodaStream! Czaruj smakiem klasycznych
