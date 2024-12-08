@@ -24,7 +24,7 @@
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  color: #fff;
+  color: #d1cec6;
 }
 #es-rc-content.es-rc html,
 #es-rc-content.es-rc body {
@@ -39,14 +39,14 @@
 #es-rc-content.es-rc h4,
 #es-rc-content.es-rc h5 {
   font-family: "HurmeGeometricSans3-Regular", sans-serif;
-  color: #fff;
+  color: #d1cec6;
 }
 #es-rc-content.es-rc .es-kv {
-  background-color: #75a7ad;
+  background-color: #13294b;
 }
 #es-rc-content.es-rc .es-kv__container {
   padding: 16px;
-  background-color: #75a7ad;
+  background-color: #13294b;
 }
 #es-rc-content.es-rc .es-kv__logo {
   padding: 32px 0;
@@ -61,86 +61,129 @@
 }
 #es-rc-content.es-rc .es-kv__img--mobile {
   max-width: 250px;
+  margin-left: 20%;
 }
 #es-rc-content.es-rc .es-kv__img--desktop {
   display: none;
 }
 #es-rc-content.es-rc .es-kv__title {
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
   line-height: inherit;
-  color: #005d6e;
+  color: #8e7845;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-weight: bold;
-  font-size: 72px;
-  letter-spacing: -4px;
+  font-size: 30px;
   text-align: center;
 }
 #es-rc-content.es-rc .es-kv__subtitle {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: inherit;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   padding: 16px 0;
-  text-transform: uppercase;
   text-align: center;
 }
 #es-rc-content.es-rc .es-kv__text {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   text-align: center;
-  padding: 0 16px 32px;
+  padding: 0 5px 5px;
 }
 #es-rc-content.es-rc .es-kv__footer {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
   text-align: center;
   padding: 0 16px 32px;
 }
+#es-rc-content.es-rc .es-kv__footer-container {
+  background-color: #8e7845;
+}
 #es-rc-content.es-rc .es-kv__packshot {
   margin: 24px 0;
 }
 #es-rc-content.es-rc .es-eco__container {
-  padding: 32px 16px;
-  background-color: #1c3453;
+  padding: 0;
+  background-color: #13294b;
 }
 #es-rc-content.es-rc .es-eco__title {
   margin: 0;
   padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   line-height: inherit;
-  color: #fff;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
-  font-size: 42px;
+  color: #8e7845;
+  background: #d1cec6;
+  font-family: "HurmeGeometricSans3-Black", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
   text-align: center;
-  margin-bottom: 48px;
   letter-spacing: -1px;
-  text-transform: uppercase;
+}
+#es-rc-content.es-rc .es-eco__title--blue {
+  background: #13294b;
+  padding-bottom: 10px;
 }
 #es-rc-content.es-rc .es-eco__text {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
-  font-family: "Hurme Geometric 3-Regular";
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  color: #d1cec6;
   font-size: 16px;
   text-align: center;
-  margin-top: 32px;
+  padding: 30px 5px;
 }
 #es-rc-content.es-rc .es-eco__text--span {
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 22px;
+}
+#es-rc-content.es-rc .es-eco__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+#es-rc-content.es-rc .es-eco__single {
+  width: 300px;
+  margin-bottom: 8px;
+  padding-inline: 8px;
+}
+#es-rc-content.es-rc .es-eco__number {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  line-height: inherit;
+  color: #d1cec6;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+#es-rc-content.es-rc .es-eco__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #13294b;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 48px;
+  letter-spacing: -1px;
 }
 #es-rc-content.es-rc .es-eco__img {
   max-width: 100%;
@@ -151,7 +194,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "Hurme Geometric 3-Regular";
   font-size: 12px;
   text-align: center;
@@ -188,7 +231,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #1c3453;
+  color: #13294b;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 42px;
   text-align: center;
@@ -200,13 +243,29 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #1c3453;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
-  font-size: 36px;
+  color: #8e7845;
+  font-family: "HurmeGeometricSans3-Black", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
   text-align: center;
-  margin-bottom: 16px;
-  margin-top: 48px;
+  margin-bottom: 20px;
   letter-spacing: -1px;
+}
+#es-rc-content.es-rc .es-natural__subtitle--bold {
+  display: block;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+}
+#es-rc-content.es-rc .es-natural__description {
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  color: #13294b;
+}
+#es-rc-content.es-rc .es-natural__list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #8e7845;
+  color: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
 }
 #es-rc-content.es-rc .es-natural__img {
   max-width: 100%;
@@ -228,13 +287,13 @@
   background: #13294b;
 }
 #es-rc-content.es-rc .es-taste__container {
-  background-color: #1c3453;
+  background-color: #13294b;
 }
 #es-rc-content.es-rc .es-taste__title {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 42px;
   text-align: center;
@@ -246,7 +305,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 42px;
   text-align: center;
@@ -262,7 +321,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "Hurme Geometric 3-Regular";
   font-size: 16px;
   text-align: center;
@@ -277,7 +336,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Black", sans-serif;
   font-size: 32px;
   text-align: center;
@@ -286,7 +345,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "Hurme Geometric 3-Regular";
   font-size: 32px;
   text-align: center;
@@ -296,14 +355,14 @@
   background-color: #d1cec6;
 }
 #es-rc-content.es-rc .es-cross__container {
-  background-color: #1c3453;
+  background-color: #13294b;
   padding: 16px;
 }
 #es-rc-content.es-rc .es-cross__title {
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 28px;
   text-align: center;
@@ -321,7 +380,7 @@
   margin: 0;
   padding: 0;
   line-height: inherit;
-  color: #fff;
+  color: #d1cec6;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   font-size: 42px;
   text-align: center;
@@ -391,7 +450,7 @@
 @keyframes es-pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 #1c3453;
+    box-shadow: 0 0 0 0 #13294b;
     border-radius: 50%;
   }
   66% {

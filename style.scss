@@ -27,6 +27,12 @@ $primary: #8e7845;
 $secondary: #d1cec6;
 $tertiary: #13294b;
 
+@mixin img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 #es-rc-content.es-rc {
   font-family: $font-hurme-regular, sans-serif;
   font-size: 16px;
@@ -35,7 +41,7 @@ $tertiary: #13294b;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  color: #fff;
+  color: $secondary;
 
   html,
   body {
@@ -53,15 +59,15 @@ $tertiary: #13294b;
   h4,
   h5 {
     font-family: $font-hurme-regular, sans-serif;
-    color: #fff;
+    color: $secondary;
   }
 
   .es-kv {
-    background-color: #75a7ad;
+    background-color: $tertiary;
 
     &__container {
       padding: 16px;
-      background-color: #75a7ad;
+      background-color: $tertiary;
     }
 
     &__logo {
@@ -69,9 +75,7 @@ $tertiary: #13294b;
     }
 
     &__img {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
+      @include img;
     }
 
     &__img--logo {
@@ -80,6 +84,7 @@ $tertiary: #13294b;
 
     &__img--mobile {
       max-width: 250px;
+      margin-left: 20%;
     }
 
     &__img--desktop {
@@ -88,13 +93,13 @@ $tertiary: #13294b;
 
     &__title {
       margin: 0;
+      margin-bottom: 30px;
       padding: 0;
       line-height: inherit;
-      color: #005d6e;
+      color: $primary;
       font-family: $font-hurme-bold, sans-serif;
       font-weight: bold;
-      font-size: 72px;
-      letter-spacing: -4px;
+      font-size: 30px;
       text-align: center;
     }
 
@@ -102,11 +107,10 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: inherit;
+      color: $secondary;
       font-family: $font-hurme-bold, sans-serif;
-      font-size: 32px;
+      font-size: 30px;
       padding: 16px 0;
-      text-transform: uppercase;
       text-align: center;
     }
 
@@ -114,7 +118,19 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
+      font-family: inherit;
+      font-weight: inherit;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 5px 5px;
+    }
+
+    &__footer {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: $secondary;
       font-family: inherit;
       font-weight: inherit;
       font-size: 16px;
@@ -122,16 +138,8 @@ $tertiary: #13294b;
       padding: 0 16px 32px;
     }
 
-    &__footer {
-      margin: 0;
-      padding: 0;
-      line-height: inherit;
-      color: #fff;
-      font-family: inherit;
-      font-weight: inherit;
-      font-size: 16px;
-      text-align: center;
-      padding: 0 16px 32px;
+    &__footer-container {
+      background-color: $primary;
     }
 
     &__packshot {
@@ -141,37 +149,88 @@ $tertiary: #13294b;
 
   .es-eco {
     &__container {
-      padding: 32px 16px;
-      background-color: #1c3453;
+      padding: 0;
+      background-color: $tertiary;
     }
 
     &__title {
       margin: 0;
       padding: 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
       line-height: inherit;
-      color: #fff;
-      font-family: $font-hurme-bold, sans-serif;
-      font-size: 42px;
+      color: $primary;
+      background: $secondary;
+      font-family: $font-hurme-black, sans-serif;
+      font-weight: 900;
+      font-size: 30px;
       text-align: center;
-      margin-bottom: 48px;
       letter-spacing: -1px;
-      text-transform: uppercase;
+
+      &--blue {
+        background: $tertiary;
+        padding-bottom: 10px;
+      }
     }
 
     &__text {
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
-      font-family: 'Hurme Geometric 3-Regular';
+      font-family: $font-hurme-regular, sans-serif;
+      color: $secondary;
       font-size: 16px;
       text-align: center;
-      margin-top: 32px;
+      padding: 30px 5px;
     }
 
     &__text--span {
       font-family: $font-hurme-bold, sans-serif;
       font-size: 22px;
+    }
+
+    &__content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      flex-flow: column;
+    }
+
+    &__single {
+      width: 300px;
+      margin-bottom: 8px;
+      padding-inline: 8px;
+    }
+
+    &__number {
+      margin: 0;
+      margin-bottom: 30px;
+      padding: 0;
+      line-height: inherit;
+      color: $secondary;
+      font-family: $font-hurme-bold, sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__subtitle {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: $tertiary;
+      font-family: $font-hurme-bold, sans-serif;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 16px;
+      margin-top: 48px;
+      letter-spacing: -1px;
     }
 
     &__img {
@@ -184,7 +243,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: 'Hurme Geometric 3-Regular';
       font-size: 12px;
       text-align: center;
@@ -235,7 +294,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #1c3453;
+      color: $tertiary;
       font-family: $font-hurme-bold, sans-serif;
       font-size: 42px;
       text-align: center;
@@ -248,13 +307,32 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #1c3453;
-      font-family: $font-hurme-bold, sans-serif;
-      font-size: 36px;
+      color: $primary;
+      font-family: $font-hurme-black, sans-serif;
+      font-weight: 900;
+      font-size: 30px;
       text-align: center;
-      margin-bottom: 16px;
-      margin-top: 48px;
+      margin-bottom: 20px;
       letter-spacing: -1px;
+
+      &--bold {
+        display: block;
+        font-family: $font-hurme-bold, sans-serif;
+        font-weight: 700;
+      }
+    }
+
+    &__description {
+      font-family: $font-hurme-regular, sans-serif;
+      color: $tertiary;
+    }
+
+    &__list {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: $primary;
+      color: $font-hurme-bold, sans-serif;
+      font-weight: 700;
     }
 
     &__picture {
@@ -286,14 +364,14 @@ $tertiary: #13294b;
 
   .es-taste {
     &__container {
-      background-color: #1c3453;
+      background-color: $tertiary;
     }
 
     &__title {
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: $font-hurme-bold, sans-serif;
       font-size: 42px;
       text-align: center;
@@ -306,7 +384,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: $font-hurme-bold, sans-serif;
       font-size: 42px;
       text-align: center;
@@ -324,7 +402,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: 'Hurme Geometric 3-Regular';
       font-size: 16px;
       text-align: center;
@@ -343,7 +421,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: $font-hurme-black, sans-serif;
       font-size: 32px;
       text-align: center;
@@ -353,7 +431,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: 'Hurme Geometric 3-Regular';
       font-size: 32px;
       text-align: center;
@@ -367,7 +445,7 @@ $tertiary: #13294b;
 
   .es-cross {
     &__container {
-      background-color: #1c3453;
+      background-color: $tertiary;
       padding: 16px;
     }
 
@@ -375,7 +453,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: $font-hurme-bold, sans-serif;
       font-size: 28px;
       text-align: center;
@@ -396,7 +474,7 @@ $tertiary: #13294b;
       margin: 0;
       padding: 0;
       line-height: inherit;
-      color: #fff;
+      color: $secondary;
       font-family: $font-hurme-bold, sans-serif;
       font-size: 42px;
       text-align: center;
@@ -487,7 +565,7 @@ $tertiary: #13294b;
 @-webkit-keyframes es-pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 #1c3453;
+    box-shadow: 0 0 0 0 $tertiary;
     border-radius: 50%;
   }
   70% {
@@ -505,7 +583,7 @@ $tertiary: #13294b;
 @keyframes es-pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 #1c3453;
+    box-shadow: 0 0 0 0 $tertiary;
     border-radius: 50%;
   }
   66% {
