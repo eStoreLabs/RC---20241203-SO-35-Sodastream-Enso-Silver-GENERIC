@@ -536,9 +536,24 @@
   text-align: center;
   margin-bottom: 22px;
 }
+@media screen and (min-width: 400px) {
+  #es-rc-content.es-rc .es-kv__img--mobile {
+    margin-left: 25%;
+  }
+}
 @media screen and (min-width: 500px) {
   #es-rc-content.es-rc .es-kv__img--mobile {
     margin-left: 30%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #es-rc-content.es-rc .es-kv__img--mobile {
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 600px) {
+  #es-rc-content.es-rc .es-kv__img--mobile {
+    margin-left: 40%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -759,6 +774,7 @@
   #es-rc-content.es-rc .es-coctails__container {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
   }
   #es-rc-content.es-rc .es-coctails__right-title {
     margin-right: 15%;
@@ -793,7 +809,7 @@
     display: block;
     position: absolute;
     top: 30px;
-    right: 0px;
+    right: -30px;
     width: 350px;
   }
   #es-rc-content.es-rc .es-kv__container {
@@ -859,6 +875,7 @@
   }
   #es-rc-content.es-rc .es-kv__img--desktop {
     top: 78px;
+    right: -110px;
     width: 450px;
   }
   #es-rc-content.es-rc .es-kv__subtitle {
@@ -881,7 +898,7 @@
   }
   #es-rc-content.es-rc .es-eco__title {
     padding-left: 100px;
-    font-size: 81px;
+    font-size: 60px;
     padding-top: 88px;
     padding-bottom: 72px;
     top: -58px;
@@ -984,6 +1001,14 @@
   #es-rc-content.es-rc .es-taste__text {
     max-width: 85%;
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #es-rc-content.es-rc .es-kv__img--desktop {
+    right: 0px;
+  }
+  #es-rc-content.es-rc .es-eco__title {
+    font-size: 81px;
   }
 }
 @keyframes es-pulse {

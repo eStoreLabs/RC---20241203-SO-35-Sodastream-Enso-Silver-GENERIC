@@ -647,11 +647,41 @@ $tertiary: #13294b;
     }
   }
 
+  @media screen and (min-width: 400px) {
+    .es-kv {
+      &__img {
+        &--mobile {
+          margin-left: 25%;
+        }
+      }
+    }
+  }
+
   @media screen and (min-width: 500px) {
     .es-kv {
       &__img {
         &--mobile {
           margin-left: 30%;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    .es-kv {
+      &__img {
+        &--mobile {
+          margin-left: 35%;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .es-kv {
+      &__img {
+        &--mobile {
+          margin-left: 40%;
         }
       }
     }
@@ -935,6 +965,7 @@ $tertiary: #13294b;
       &__container {
         display: flex;
         gap: 10px;
+        justify-content: space-between;
       }
 
       &__right-title {
@@ -980,7 +1011,7 @@ $tertiary: #13294b;
         display: block;
         position: absolute;
         top: 30px;
-        right: 0px;
+        right: -30px;
         width: 350px;
       }
       &__container {
@@ -1058,6 +1089,7 @@ $tertiary: #13294b;
 
       &__img--desktop {
         top: 78px;
+        right: -110px;
         width: 450px;
       }
 
@@ -1087,7 +1119,7 @@ $tertiary: #13294b;
 
       &__title {
         padding-left: 100px;
-        font-size: 81px;
+        font-size: 60px;
         padding-top: 88px;
         padding-bottom: 72px;
         top: -58px;
@@ -1226,6 +1258,20 @@ $tertiary: #13294b;
       &__text {
         max-width: 85%;
         font-size: 24px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .es-kv {
+      &__img--desktop {
+        right: 0px;
+      }
+    }
+
+    .es-eco {
+      &__title {
+        font-size: 81px;
       }
     }
   }
