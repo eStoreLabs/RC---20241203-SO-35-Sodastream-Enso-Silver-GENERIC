@@ -92,7 +92,7 @@ $tertiary: #13294b;
 
     &__img--mobile {
       max-width: 250px;
-      margin-left: 20%;
+      padding-left: 60px;
     }
 
     &__img--desktop {
@@ -647,54 +647,8 @@ $tertiary: #13294b;
     }
   }
 
-  @media screen and (min-width: 400px) {
-    .es-kv {
-      &__img {
-        &--mobile {
-          margin-left: 25%;
-        }
-      }
-    }
-  }
-
-  @media screen and (min-width: 500px) {
-    .es-kv {
-      &__img {
-        &--mobile {
-          margin-left: 30%;
-        }
-      }
-    }
-  }
-
-  @media screen and (min-width: 550px) {
-    .es-kv {
-      &__img {
-        &--mobile {
-          margin-left: 35%;
-        }
-      }
-    }
-  }
-
-  @media screen and (min-width: 600px) {
-    .es-kv {
-      &__img {
-        &--mobile {
-          margin-left: 40%;
-        }
-      }
-    }
-  }
-
   @media screen and (min-width: 768px) {
     .es-kv {
-      &__img {
-        &--mobile {
-          margin-left: 40%;
-        }
-      }
-
       &__title {
         font-size: 40px;
       }
