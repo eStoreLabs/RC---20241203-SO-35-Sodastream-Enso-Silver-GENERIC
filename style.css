@@ -251,7 +251,7 @@
 }
 #es-rc-content.es-rc .es-natural__container {
   padding: 32px 16px;
-  padding-bottom: 0;
+  padding-bottom: 10px;
   background-color: #eeeae5;
 }
 #es-rc-content.es-rc .es-natural__title {
